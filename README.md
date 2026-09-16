@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# WDD430 Portfolio
+
+This project is my WDD430 portfolio built with Next.js, TypeScript, and Tailwind CSS.
+
+## Live Site
+
+[View my portfolio](https://wdd430-portfolio-gamma-cyan.vercel.app/)
+
+## GitHub Repository
+
+[View the GitHub repository](https://github.com/marthasibiya25/wdd430-portfolio)
+
+## Features
+
+* Responsive portfolio home page
+* About page
+* Reusable project card components
+* Project technology information
+* Conditional project links
+* Custom About page component
+* Next.js App Router
+* TypeScript
+* Tailwind CSS
+* API route at `/api/hello`
+
+## Technologies
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* Vercel
 
 ## Getting Started
 
-First, run the development server:
+Install the project dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser to view the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```text
+wdd430-portfolio/
+├── app/
+│   ├── about/
+│   │   └── page.tsx
+│   ├── api/
+│   │   └── hello/
+│   │       └── route.ts
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── AboutHighlight.tsx
+│   ├── Footer.tsx
+│   ├── Header.tsx
+│   ├── ProjectCard.tsx
+│   └── ProjectList.tsx
+└── README.md
+```
 
-## Learn More
+## Custom Component
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**AboutHighlight.tsx** — Displays a styled highlight section on the About page with a customizable title and content describing my learning focus and goals.
