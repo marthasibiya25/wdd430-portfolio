@@ -6,7 +6,7 @@ const projects = [
     description:
       "A web application that connects community organizations with projects and volunteers. The application includes organization, project, category, user authentication, and volunteer management features.",
     technologies: ["Node.js", "Express", "EJS", "PostgreSQL"],
-    link: "https://github.com/marthasibiya25/cse340",
+    link="https://github.com/marthasibiya25/cse340-course-repo"
   },
   {
     title: "SafeHer SA",
